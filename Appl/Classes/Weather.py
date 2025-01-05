@@ -9,23 +9,22 @@ import math
 import requests
 import xml.etree.ElementTree as ET
 
-import bisect
-
-def maintain_sorted_list(numbers):
-    """
-    Given an iterable of numbers, maintain a sorted list
-    by inserting each number in its correct position.
-    Returns the final sorted list.
-    """
-    sorted_list = []
-    for num in numbers:
-        # Insert `num` into sorted_list while maintaining sorted order
-        bisect.insort(sorted_list, num)
-        print(f"After inserting {num}, list is now: {sorted_list}")
-    return sorted_list
-
 # Full Canadian site list
 site_list_url = "https://dd.weather.gc.ca/citypage_weather/xml/siteList.xml"
+
+class Location:
+    def __init__(self, latitude, longitude):
+        self.latitude = latitude
+        self.longitude = longitude
+
+    def __str__(self):
+        return f"Longitude: {self.longitude}, Latitude: {self.latitude}"
+    
+    def getLatitude(self):
+        return self.latitude
+    
+    def getLongitude(self):
+        return self.longitude
 
 class Weather:
     def __init__(self, location):
@@ -167,6 +166,7 @@ class Weather:
             return
         
         else:
+            print(f"Nearest site is {nearest_site} at distance {nearest_distance:.2f} km")
             province_code, site_code = nearest_site
             weather_url = f"https://dd.weather.gc.ca/citypage_weather/xml/{province_code}/{site_code}_e.xml"
 
@@ -205,23 +205,6 @@ class Weather:
             except ValueError as e:
                 print(f"Error parsing wind speed: {e}")
         return 
-    
-class Location:
-    def __init__(self, latitude, longitude):
-        self.latitude = latitude
-        self.longitude = longitude
-
-    def __str__(self):
-        return f"Longitude: {self.longitude}, Latitude: {self.latitude}"
-    
-    def getLatitude(self):
-        return self.latitude
-    
-    def getLongitude(self):
-        return self.longitude
-        
-
-
 
 if __name__ == "__main__":
     # Test the Weather class
