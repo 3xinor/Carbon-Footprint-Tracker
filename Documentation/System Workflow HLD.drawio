@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="XFVEXouDOvianV5Rt1IX">
+    <mxGraphModel dx="1233" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="28fcldxoi0irg_6zo9xc-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="20" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="28fcldxoi0irg_6zo9xc-1">
+          <mxGeometry x="5" y="70" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-7" value="Google Maps" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="28fcldxoi0irg_6zo9xc-7">
+          <mxGeometry x="45" y="90" width="10" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-8" value="Extension" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="28fcldxoi0irg_6zo9xc-8">
+          <mxGeometry x="45" y="190" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-9" value="Back End" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="660" y="60" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#808080;" vertex="1" parent="28fcldxoi0irg_6zo9xc-9">
+          <mxGeometry x="45" y="260" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-10" value="Opens google maps webpage" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="28fcldxoi0irg_6zo9xc-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="150" as="sourcePoint" />
+            <mxPoint x="230" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-15" value="Enters a destination" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="28fcldxoi0irg_6zo9xc-13" target="28fcldxoi0irg_6zo9xc-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint" />
+            <mxPoint x="290" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-18" value="Activates CO2 Emmisions Extension" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="28fcldxoi0irg_6zo9xc-13" target="28fcldxoi0irg_6zo9xc-8">
+          <mxGeometry x="0.508" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="250" as="sourcePoint" />
+            <mxPoint x="430" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="265" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-20" value="Requests trip data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="28fcldxoi0irg_6zo9xc-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="270" as="sourcePoint" />
+            <mxPoint x="310" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-21" value="Retrieves trip data" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="28fcldxoi0irg_6zo9xc-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="300" as="sourcePoint" />
+            <mxPoint x="485" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-23" value="Send trip data /POST" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0476" width="80" relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-28" value="/GET weather data&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="740" y="350" />
+            </Array>
+            <mxPoint x="715" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-29" value="Calculate CO2 Emisions of trip" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="740" y="390" />
+            </Array>
+            <mxPoint x="715" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-30" value="Return Expected CO2 emmisions" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="715" y="400" as="sourcePoint" />
+            <mxPoint x="500" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-31" value="Format CO2 emmissions(HTML)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="520" y="450" />
+            </Array>
+            <mxPoint x="495" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-32" value="Display expected emmisions" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="470" as="sourcePoint" />
+            <mxPoint x="310" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28fcldxoi0irg_6zo9xc-34" value="view info on google maps" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0233" width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="500" as="sourcePoint" />
+            <mxPoint x="295" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
