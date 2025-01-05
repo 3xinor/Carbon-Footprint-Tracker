@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carbon Footprint Tracker</title>
+        <style>
+            #map {
+                height: 100vh; /* full screen map */
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>My Trips Carbon Emmisions</h3>
+        <div id="map"></div> <!-- Map will appear here -->
+
+        <!-- Google Maps API key -->
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAM5IBjYgXvCbbg3H-hSF3Uplm_vvdZyw">
+        </script>
+
+        <script>
+            function initMap() {
+                // define map options
+                var mapOptions = { 
+                    zoom: 8,
+                    center: { lat: 45.4215, lng:-75.6972} // Default to Ottawa, Canada
+                };
+
+                // Create map instance
+                var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+                // Add a marker to the map
+                var marker = new google.maps.Marker({
+                    position: { lat: 45.4215, lng: -75.6972},
+                    map: map,
+                    title: "Hello Ottawa!"
+                });
+            }
+        </script>
+    </body>
+</html>
